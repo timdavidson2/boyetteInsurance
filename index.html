@@ -2,89 +2,51 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+    />
     <!-- font awesome -->
     <script
       src="https://kit.fontawesome.com/18dfe91f63.js"
       crossorigin="anonymous"
     ></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Redressed&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap-social/bootstrap-social.css"
-    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Project</title>
   </head>
   <body>
-    <!-- navagation bar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
-      <a class="navbar-brand" href="#"
-        ><img
-          class="logo mr-2"
-          src="img/FullColor_TransparentBg_1280x1024_72dpi.png"
-          height="50"
-          width="50"
-        />Boyette Insurance Agency, Inc</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#Navbar"
-      >
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="img/mainLogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Boyette Insurance Agency
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="Navbar">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              ><i class="fa fa-home fa-lg"></i> Home</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="fa fa-info fa-lg"></i> About Us</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="fa fa-money fa-lg"></i> Get a Quote</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="fa fa-credit-card fa-lg"></i> Payment Center</a
-            >
-          </li>
-        </ul>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#"><i class="fa fa-home fa-lg"></i> Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#"><i class="fa fa-info fa-lg"></i> About Us</a>
+          <a class="nav-item nav-link" href="#"><i class="fa fa-money fa-lg"></i> Request a Quote</a>
+          <a class="nav-item nav-link" href="#"><i class="fa fa-credit-card fa-lg"></i> Payment Center</a>
+        </div>
       </div>
     </nav>
     <!-- header main -->
     <header class="jumbotron-fluid">
-      <!-- <div class="container"> -->
+      <div class="container">
       <div class="row">
-        <!-- <div class="col-6 col-sm-3 col-md-2 ml-3">
-                <img src="img/mainLogo.png" class="img-fluid" />
-            </div> -->
-        <div class="col ml-4">
+        <div class="col-sm-8">
           <h1>Boyette Insurance Agency, Inc</h1>
           <h2>be a NAME, not a NUMBER</h2>
         </div>
         <!-- phone number -->
-        <div class="col-md-4 col-lg-3">
+        <div class="col-sm-2 ml-4">
           <h2 class="phone">804.262.3939</h2>
         </div>
       </div>
@@ -92,12 +54,12 @@
     </header>
     <div class="container-fluid main-container">
       <div class="row">
-        <div class="col-sm-7 mt-4">
+        <div class="col-sm-8 m-4 why">
           <h2>Why an Independent Agent?</h2>
-          <h3>
+          <h4>
             Not all insurance agents are the same! Choosing the right one can
             make a big difference – in price, service, and value.
-          </h3>
+          </h4>
           <p>
             With other agencies, you get one company that sells one brand of
             insurance. With an independent insurance agency like Boyette
@@ -113,25 +75,16 @@
             advocate in times of need.
           </p>
         </div>
-        <div class="col-md-4 shadow mt-4 ml-6 why">
-          <h3>Here are a few reasons why</h3>
+        <div class="col-md-3 shadow m-4 reasons">
+          <h3>Here are a few reasons why:</h3>
           <ul>
-            <li>We work for you when you have a claim.</li>
             <li>
               We are not beholden to any one company. This means you don’t have
               to change agencies as your insurance and service needs change.
             </li>
             <li>
-              We are your consultants, working with you as you determine your
-              needs.
-            </li>
-            <li>
-              We are value-hunters who look after your pocketbook in finding the
-              best combination of price, coverage, and service.
-            </li>
-            <li>
               We offer one-stop shopping for a full range of products, including
-              home, renters, auto, business, life, health, and retirement plans.
+              home, renters, auto, and business.
             </li>
             <li>
               We can periodically review your coverage to keep up with your
@@ -150,7 +103,37 @@
         </div>
       </div>
     </div>
+    
 
+    <!-- card deck -->
+    <div class="container-fluid mt-4 mb-4 deck">
+    <div class="card-deck">
+      <div class="card border-primary auto-insurance">
+        <img src="img/carInsurance.jpg" class="car-insurance" alt="front of car">
+        <div class="card-body">
+          <h5 class="card-title">Auto Insurance</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a class="btn btn-primary" href="#" role="button">Learn More</a>
+        </div>
+      </div>
+      <div class="card border-primary">
+        <img src="img/house.jpg" class="home-insurance" alt="Picture of a House">
+        <div class="card-body">
+          <h5 class="card-title">Homeowners Insurance</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <a class="btn btn-primary" href="#" role="button">Learn More</a>
+        </div>
+      </div>
+      <div class="card border-primary ">
+        <img src="img/business.jpg" class="business-insurance" alt="Picture of man working">
+        <div class="card-body">
+          <h5 class="card-title">Business Insurance</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <a class="btn btn-primary" href="#" role="button">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- main footer -->
     <footer class="site-footer mt-4 mb-4">
       <div class="container-fluid">

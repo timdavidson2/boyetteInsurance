@@ -1,5 +1,6 @@
-/* font-family: 'Playfair Display', serif;
-font-family: 'Redressed', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Montserrat&display=swap');
+/*     font-family: 'Cormorant Unicase', serif;
+        font-family: 'Montserrat', sans-serif; */
 
 body {
     background-color: white;
@@ -18,17 +19,22 @@ body {
 }
 
 .jumbotron-fluid h1 {
-    font-family: 'Redressed', cursive;
-    font-size: 4rem;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 3rem;
 }
 
 .jumbotron-fluid h2 {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
+    font-style: 'Montserrat', sans-serif;
+    
 }
 
 .phone {
+    font-family: 'Cormorant Unicase', serif;
     font-size: 3rem; 
+}
+
+.main-container {
+    border-bottom: 2px solid black;
 }
 
 .main-container span {
@@ -36,6 +42,14 @@ body {
 }
 
 .why {
+    font-family: 'Cormorant Unicase', serif;
+}
+
+.why p {
+    font-family:'Montserrat', sans-serif; 
+}
+
+.reasons {
     border: 1px solid black;
     border-radius: 10px;
     background-color: rgb(236, 230, 230);
@@ -44,4 +58,6 @@ body {
 .site-footer {
     border-top: 2px solid black;
 }
+
+
 
