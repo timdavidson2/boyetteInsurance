@@ -2,22 +2,27 @@
 font-family: 'Redressed', cursive; */
 
 body {
-    background-color: antiquewhite;
+    background-color: white;
 }
 
-.jumbotron {
+.nav-item {
+    font-size: 1.25rem;
+}
+
+.jumbotron-fluid {
     margin: 0;
+    padding: 0;
     color: white;
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,27,74,1) 40%, rgba(67,175,196,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,27,74,1) 40%, rgba(67,175,196,1) 100%);
 }
 
-.jumbotron h1 {
+.jumbotron-fluid h1 {
     font-family: 'Redressed', cursive;
     font-size: 4rem;
 }
 
-.jumbotron h2 {
+.jumbotron-fluid h2 {
     font-family: 'Playfair Display', serif;
     font-style: italic;
 }
@@ -25,3 +30,18 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,27,74,1) 40%, rgba
 .phone {
     font-size: 3rem; 
 }
+
+.main-container span {
+    font-weight: bold;
+}
+
+.why {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(236, 230, 230);
+}
+
+.site-footer {
+    border-top: 2px solid black;
+}
+
