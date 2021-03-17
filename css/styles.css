@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Cormorant+Unicase:wght@400;700&display=swap');
 /*     font-family: 'Cormorant Unicase', serif;
-        font-family: 'Montserrat', sans-serif; */
+        font-family: 'Montserrat', sans-serif; 
+       font-family: 'Cormorant Garamond', serif; */
 
 body {
-    background-color: white;
+    background-image: url(../img/double-bubble-outline.png);
 }
 
 .nav-item {
@@ -40,6 +41,26 @@ body {
     font-weight: bold;
 }
 
+.carousel-caption {
+  border: 1px solid white;    
+  background-color: rgba(113, 114, 128, .5); 
+  box-shadow:  5px 5px rgb(232, 232, 237);
+  
+}
+
+.carousel-caption h1{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 3rem;
+}
+
+.carousel-caption p{
+    color:white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+}
+
 .why {
     font-family: 'Cormorant Unicase', serif;
 }
@@ -56,4 +77,15 @@ body {
 
 .site-footer {
     border-top: 2px solid black;
+}
+
+.page-title {
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 139);
+    
+}
+
+.quote {
+    background-color: white;
 }
