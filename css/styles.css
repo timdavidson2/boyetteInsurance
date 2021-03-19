@@ -82,10 +82,22 @@ body {
 .page-title {
     font-family: 'Cormorant Unicase', serif;
     font-weight: bolder;
-    color: rgb(0, 0, 139);
+    color: #00008b;
+    font-size: 3rem;
     
 }
 
 .quote {
-    background-color: white;
+    color: black;
+    border-radius: 10px;
 }
+
+.legend {
+    border: 2px solid black;
+}
+
+.about p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+}
+
