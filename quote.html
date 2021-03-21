@@ -27,11 +27,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link" href="index.html"><i class="fa fa-home"></i> Home</a>
-                <a class="nav-item nav-link" href="aboutUs.html"><i class="fa fa-info"></i> About Us</a>
-                <a class="nav-item nav-link active" href="#"><i class="fa fa-money"></i> Request a Quote<span
+                <a class="nav-item nav-link px-4" href="index.html"><i class="fa fa-home"></i> Home</a>
+                <a class="nav-item nav-link px-4" href="aboutUs.html"><i class="fa fa-info"></i> About Us</a>
+                <a class="nav-item nav-link px-4 active" href="#"><i class="fa fa-money"></i> Request a Quote<span
                         class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#"><i class="fa fa-credit-card"></i> Payment Center</a>
+                <a class="nav-item nav-link px-4" href="payment.html"><i class="fa fa-credit-card"></i> Payment
+                    Center</a>
             </div>
         </div>
     </nav>
@@ -108,21 +109,24 @@
                         <div class="form-group">
                             <label for="email">Email:</label>
                             <input type="email" id="email" class="form-control">
-                            <small class="form-text text-muted small">We never share email addresses with anyone.</small>
+                            <small class="form-text text-muted small">We never share email addresses with
+                                anyone.</small>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="phone">Tel:</label>
                             <input type="tel" class="form-control">
-                            <small class="form-text text-muted small">We never share phone numbers and only call when you
+                            <small class="form-text text-muted small">We never share phone numbers and only call when
+                                you
                                 ask.</small>
                         </div>
                     </div>
                 </div>
                 <fieldset class="border p-2">
                     <legend class="w-auto">Additional Information</legend>
-                    <small class="form-text text-muted small">Any additional information you would like us to know.</small>
+                    <small class="form-text text-muted small">Any additional information you would like us to
+                        know.</small>
                     <div class="row">
                         <div class="col-md-12">
                             <textarea name="additional" id="additional" cols="120" rows="5"
@@ -179,31 +183,31 @@
     </form>
 
     <!-- main footer -->
-    <footer class="site-footer mt-4 mb-4">
-        <div class="container-fluid">
+    <div class="container-fluid">
+        <footer class="site-footer">
             <div class="row">
-                <div class="col-4 col-sm-2 offset-1">
+                <div class="col">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Home</a></li>
                         <li><a href="aboutUs.html">About Us</a></li>
-                        <li><a href="#">Get a Quote</a></li>
+                        <li><a href="quote.html">Get a Quote</a></li>
                         <li><a href="#">Payment Center</a></li>
                     </ul>
                 </div>
                 <!-- social media links -->
-                <div class="col-6 col-sm-5 text-center">
+                <div class="col">
                     <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/" target="_blank"><i
                             class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/" target="_blank"><i
                             class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/" target="_blank"><i
                             class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/" target="_blank"><i
                             class="fa fa-youtube"></i></a>
                 </div>
-                <div class="col-sm-4 text-center">
+                <div class="col">
                     <a role="button" class="btn btn-link" href="tel:+18042623939"><i class="fa fa-phone"></i>
                         1-804-262-3939</a><br />
                     <a role="button" class="btn btn-link" href="mailto:kim@boyetteins.com"><i
@@ -211,7 +215,7 @@
                         kim@boyetteins.com</a>
                 </div>
             </div>
-        </div>
+    </div>
     </footer>
 
     <!-- js, popper, bootstrap -->
