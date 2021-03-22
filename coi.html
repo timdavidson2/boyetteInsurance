@@ -11,37 +11,165 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <!-- endbuild -->
-    <title>Project</title>
+    <title>Boyette Insurance 804.262.3939</title>
 </head>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2 class="page-title">Request Certificate of Insurance</h2>
+        </div>
+    </div>
+</div>
+
+<form action="" class="main-form">
+    <div class="container coi">
+        <fieldset class="border p-2">
+            <legend class="w-auto">Certificate Information</legend>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="ourInsured">Name of our insured company</label>
+                        <input type="text" name="ourInsured" id="ourInsured" class="form-control"
+                            placeholder="(required)" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="ourInsuredContact">Our Insured contact name</label>
+                        <input type="text" name="ourInsuredContact" id="ourInsuredContact" class="form-control"
+                            placeholder="(required)" required>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="ourInsuredPhone">Our Insured Phone</label>
+                        <input type="tel" name="ourInsuredPhone" id="ourInsuredPhone" class="form-control"
+                            placeholder="Example - 804-555-1212 (required)" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="ourInsuredEmail">Our Insured Email</label>
+                        <input type="email" name="ourInsuredEmail" id="ourInsuredEmail" class="form-control"
+                            placeholder="(required)" required>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="certificateHolder">Name of Certificate Holder</label>
+                        <input type="text" name="certificateHolder" id="certificateHolder" class="form-control"
+                            placeholder="(required)" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="addressMain"> Street Address:</label>
+                        <input type="text" name="address" id="addressMain" class="form-control" placeholder="(required)"
+                            required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="addressSecondary">Ste/Box/etc.:</label>
+                        <input type="text" name="addressSecondary" class="form-control" id="addressSecondary">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="city">City:</label>
+                        <input type="text" id="city" class="form-control" placeholder="(required)" required>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="state">State:</label>
+                        <input type="text" id="state" class="form-control" placeholder="(required)" required>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="zipcode">Zip:</label>
+                        <input id="zip" name="zip" type="text" inputmode="numeric"
+                            pattern="^(?(^00000(|-0000))|(\d{5}(|-\d{4})))$" class="form-control"
+                            placeholder="(required)" required>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <legend class="w-auto">Additional Information</legend>
+            <small class="form-text text-muted small">Any additional information you would like us to
+                know.</small>
+            <div class="row">
+                <div class="col-md-12">
+                    <textarea name="additional" id="additional" cols="120" rows="5" class="form-control"></textarea>
+                </div>
+            </div>
+            <legend class="w-auto">Additional Insured?</legend>
+            <div class="form-check">
+                <input type="radio" id="additionalInsuredYes">
+                <label for="additionalInsuredYes">Yes</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="additionalInsuredNo">
+                <label for="additionalInsuredNo">No</label>
+            </div>
+            <legend class="w-auto">Additional Interest?</legend>
+            <div class="form-check">
+                <input type="radio" id="additionalInterestYes">
+                <label for="additionalInterestYes">Yes</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="additionalInterestNo">
+                <label for="additionalInterestNo">No</label>
+            </div>
+            <legend class="w-auto">Special Request</legend>
+            <small class="form-text text-muted small">Contract number / Reference Number any special information to be
+                on certificate.</small>
+            <div class="row">
+                <div class="col-md-12">
+                    <textarea name="additional" id="additional" cols="120" rows="5" class="form-control"></textarea>
+                </div>
+            </div>
+
+        </fieldset>
+        <div class="sumbit">
+            <button type="submit" class="btn btn-primary m-4">Submit Form</button>
+        </div>
+    </div>
+</form>
 
 <body>
 
     <!-- main footer -->
-    <footer class="site-footer mt-4 mb-4">
-        <div class="container-fluid">
+    <div class="container">
+        <footer class="site-footer">
             <div class="row">
-                <div class="col-4 col-sm-2 offset-1">
+                <div class="col">
                     <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="quote.html">Get a Quote</a></li>
-                        <li><a href="#">Payment Center</a></li>
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item"><a href="index.html">Home</a></li>
+                        <li class="list-inline-item"><a href="aboutUs.html">About Us</a></li>
+                        <li class="list-inline-item"><a href="quote.html">Get a Quote</a></li>
+                        <li class="list-inline-item"><a href="#">Payment Center</a></li>
                     </ul>
                 </div>
                 <!-- social media links -->
-                <div class="col-6 col-sm-5 text-center">
+                <div class="col">
                     <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/" target="_blank"><i
                             class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/" target="_blank"><i
                             class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/" target="_blank"><i
                             class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/" target="_blank"><i
                             class="fa fa-youtube"></i></a>
                 </div>
-                <div class="col-sm-4 text-center">
+                <div class="col">
                     <a role="button" class="btn btn-link" href="tel:+18042623939"><i class="fa fa-phone"></i>
                         1-804-262-3939</a><br />
                     <a role="button" class="btn btn-link" href="mailto:kim@boyetteins.com"><i
@@ -49,7 +177,7 @@
                         kim@boyetteins.com</a>
                 </div>
             </div>
-        </div>
+    </div>
     </footer>
 
     <!-- js, popper, bootstrap -->
@@ -62,21 +190,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
         crossorigin="anonymous"></script>
-</body>
-
-</html>
-
-
-<!-- js, popper, bootstrap -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>
