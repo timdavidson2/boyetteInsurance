@@ -84,6 +84,7 @@ body {
     
 }
 
+
 .quote {
     color: black;
     background-color: white;
@@ -94,8 +95,8 @@ body {
     border: 2px solid black;
 }
 
-.about p{
+.about  {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    height: 75vh;
 }
-
